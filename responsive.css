@@ -1,0 +1,193 @@
+@media only screen and (max-width:1360px) {
+
+    .button-wrapper .head {
+        padding: 24px 0;
+    }
+
+    .button-wrapper {
+        width: 100%;
+        padding: 0 44px;
+    }
+
+    .design-section {
+        padding: 0 44px;
+    }
+
+    .design-section .description {
+        width: 50%;
+        padding: 95px 0;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            width: 330px;
+        }
+    }
+
+    .design-section .design {
+        width: 50%;
+    }
+
+    .design-section .design .image-wrapper::after {
+        bottom: 55px;
+    }
+
+
+    .design-section .design .image-wrapper .curse-hours {
+        bottom: -15px;
+        left: -60px;
+        width: 155px;
+        height: 100px;
+
+        h3 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .design-section .design .image-wrapper .members {
+        width: 105px;
+        height: 100px;
+        top: -10px;
+        right: -30px;
+        padding: 15px 20px;
+
+        h3 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .card-section .card-wrapper {
+        padding: 0 44px;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    }
+
+    .card-section .card h3 {
+
+        font-size: 20px;
+    }
+
+
+
+    footer .style {
+        width: 100%;
+        padding: 0 44px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 765px) {
+    .button-wrapper .head {
+        padding: 16px 0;
+
+    }
+
+    .button-wrapper {
+        padding: 0 20px;
+    }
+
+    .design-section {
+        padding: 0 20px;
+    }
+
+    .card-section .card-wrapper {
+        row-gap: 53px;
+    }
+
+
+    .card-section .card {
+        padding: 63px 10px 40px 32px;
+
+        p {
+            font-size: 16px;
+            font-weight: 700;
+
+        }
+    }
+
+
+    .card-section .card-wrapper {
+        padding: 0 20px;
+    }
+
+    footer .style {
+        padding: 0 20px;
+    }
+
+    .design-section .description {
+        width: 100%;
+    }
+
+    .design-section .design {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .card-section .card-wrapper .card-courses {
+        padding: 32px;
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    .image-wrapper .img-hide {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 260px;
+        height: 260px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+
+    .image-wrapper .img-hide .img-off {
+        display: none;
+    }
+
+    .design-section .design .image-wrapper .img-hide .img-on {
+        display: block;
+        position: relative;
+        bottom: -26px;
+        right: -9px;
+    }
+
+
+    .design-section .design .image-wrapper::after {
+        display: none;
+    }
+
+    .design-section .design .image-wrapper .curse-hours {
+        bottom: -27px;
+        left: -34px;
+        border-radius: 10px;
+    }
+
+    footer {
+        & .style {
+            button {
+                padding: 10px 24px;
+            }
+
+            span {
+                width: 80px;
+            }
+
+            span img {
+                max-width: 100%;
+            }
+        }
+    }
+}
