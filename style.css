@@ -9,6 +9,9 @@
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
     background: linear-gradient(to bottom, #FFFFFF, #F0F2FF);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .flex {
@@ -22,6 +25,8 @@ header {
     flex-direction: column;
     overflow: hidden;
     padding-bottom: 128px;
+    max-width: 1440px;
+    width: 100%;
 
 
 }
